@@ -55,4 +55,8 @@ body {
   background: linear-gradient(#2b9cc5, #7597de);
 }
 
-
+#uploadsection {
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+}
