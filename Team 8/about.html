@@ -2,10 +2,13 @@
 <html lang="en">
 
 <head>
-  <title>EZImghost</title>
+  <title>About - EZImghost</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)" />
+  <link rel="stylesheet" href="tablet.css" media="screen and (min-width:481px) and (max-width:768px)" />
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width:769px)" />
   <script src="script.js" defer></script>
 </head>
 
@@ -18,11 +21,33 @@
       <li><a href="index.html">Upload</a></li>
     </ul>
   </nav>
-  <div>
-    <ul>
-      <li><div id="David"><img src="images/david.jpg">Description for David here</div></li>
-      <li><div id="Eugene"><img src="images/eugene.jpg">Description for Eugene here</div></li>
-      <li><div id="Christos"><img src="images/christos.jpg">Description for Christos here</div></li>
+  <div id="aboutdiv">
+    <ul id="aboutsection">
+      <li>
+        <div id="David"><img src="images/david.jpg">
+          <h3>David Cruz</h3>
+          <p>
+            As of fall 2022, David is a 3/4 Computer Science major at Stevens Institute of Technology.
+            <br>
+            <br>
+            <a href="https://www.github.com/xxmistacruzxx">GitHub</a>
+            <br>
+            <a href="https://www.instagram.com/xxmistacruzxx">Instagram</a>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div id="Eugene"><img src="images/eugene.jpg">
+          <h3>Eugene Jang</h3>
+          <p>Description for Eugene here</p>
+        </div>
+      </li>
+      <li>
+        <div id="Christos"><img src="images/christos.jpg">
+          <h3>Christos Zervas</h3>
+          <p>Description for Christos here</p>
+        </div>
+      </li>
     </ul>
   </div>
 </body>

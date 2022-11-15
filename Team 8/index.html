@@ -2,10 +2,13 @@
 <html lang="en">
 
 <head>
-  <title>EZImghost</title>
+  <title>Upload - EZImghost</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)" />
+  <link rel="stylesheet" href="tablet.css" media="screen and (min-width:481px) and (max-width:768px)" />
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width:769px)" />
   <script src="script.js" defer></script>
 </head>
 
@@ -20,34 +23,59 @@
   </nav>
   <div id="uploadsection">
     <form action="/upload.js">
-      Upload an image!<br>
-      <input type="file" id="myFile" name="filename" accept="image/png, image/jpeg"><br>
-
-      Choose a category!<br>
-      <input type="radio" id="3D" name="category" value="3D">
-      <label for="3D">3D</label><br>
-      <input type="radio" id="Anime" name="category" value="Anime">
-      <label for="3D">Anime</label><br>
-      <input type="radio" id="Comics" name="category" value="Comics">
-      <label for="3D">Comics</label><br>
-      <input type="radio" id="Digital Art" name="category" value="Digital Art">
-      <label for="3D">Digital Art</label><br>
-      <input type="radio" id="Drawing" name="category" value="Drawing">
-      <label for="3D">Drawing</label><br>
-      <input type="radio" id="Landscape" name="category" value="Landscape">
-      <label for="3D">Landscape</label><br>
-      <input type="radio" id="Nature" name="category" value="Nature">
-      <label for="3D">Nature</label><br>
-      <input type="radio" id="Photography" name="category" value="Photography">
-      <label for="3D">Photography</label><br>
-      <input type="radio" id="Pixel Art" name="category" value="Pixel Art">
-      <label for="3D">Pixel Art</label><br>
-      <input type="radio" id="Sculpture" name="category" value="Sculpture">
-      <label for="3D">Sculpture</label><br>
-      <input type="radio" id="Other" name="category" value="Other">
-      <label for="3D">Other</label><br>
-
-      <input type="submit" value="Submit">
+      <p>Step 1: Select an image!</p>
+      <input type="file" id="myFile" name="filename" accept="image/png, image/jpeg">
+      <br>
+      <p>Step 2: Choose a category!</p>
+      <div>
+        <div>
+          <input type="radio" id="3D" name="category" value="3D">
+          <label for="3D">3D</label>
+        </div>
+        <div>
+          <input type="radio" id="Anime" name="category" value="Anime">
+          <label for="3D">Anime</label>
+        </div>
+        <div>
+          <input type="radio" id="Comics" name="category" value="Comics">
+          <label for="3D">Comics</label>
+        </div>
+        <div>
+          <input type="radio" id="Digital Art" name="category" value="Digital Art">
+          <label for="3D">Digital Art</label>
+        </div>
+        <div>
+          <input type="radio" id="Drawing" name="category" value="Drawing">
+          <label for="3D">Drawing</label>
+        </div>
+        <div>
+          <input type="radio" id="Landscape" name="category" value="Landscape">
+          <label for="3D">Landscape</label>
+        </div>
+        <div>
+          <input type="radio" id="Nature" name="category" value="Nature">
+          <label for="3D">Nature</label>
+        </div>
+        <div>
+          <input type="radio" id="Photography" name="category" value="Photography">
+          <label for="3D">Photography</label>
+        </div>
+        <div>
+          <input type="radio" id="Pixel Art" name="category" value="Pixel Art">
+          <label for="3D">Pixel Art</label>
+        </div>
+        <div>
+          <input type="radio" id="Sculpture" name="category" value="Sculpture">
+          <label for="3D">Sculpture</label>
+        </div>
+        <div>
+          <input type="radio" id="Other" name="category" value="Other">
+          <label for="3D">Other</label>
+        </div>
+      </div>
+      <br>
+      <p>Step 3: Submit!</p>
+      <input id="submit" type="submit" value="Submit">
     </form>
   </div>
 </body>
