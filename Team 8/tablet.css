@@ -13,12 +13,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #7597de;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    border-bottom-style: solid;
-    border-bottom-color: #344366;
-    border-width: 2px;
 }
 
 nav .logo {
