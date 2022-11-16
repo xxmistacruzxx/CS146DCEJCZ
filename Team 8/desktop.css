@@ -9,7 +9,6 @@
 }
 
 nav {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -32,7 +31,6 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 nav ul li {
@@ -59,13 +57,9 @@ body {
 
 /*UPLOAD PAGE*/
 #uploadsection {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
   display: flex;
   justify-content: center;
+  margin-top: 20vh;
 }
 
 #uploadsection form {
@@ -80,7 +74,7 @@ body {
   background-color: #7597de;
 }
 
-#uploadsection form p {
+#uploadsection form h3 {
   text-align: center;
 }
 
@@ -93,6 +87,10 @@ body {
 
 #uploadsection form div div {
   padding:5px;
+}
+
+#uploadsection form div div label {
+  padding-left:4px;
 }
 
 #myFile{
@@ -163,7 +161,7 @@ body {
   border-radius: 20px;
   background-color: rgb(185, 238, 252);
   padding: 15px;
-  max-width: 20%;
+  width: 17%;
 }
 
 #aboutsection li div img {

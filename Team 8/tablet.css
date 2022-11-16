@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
 /*ALL PAGES*/
 * {
     margin: 0;
@@ -6,7 +8,156 @@
     font-family: "Poppins", sans-serif;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7597de;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #344366;
+    border-width: 2px;
+}
+
+nav .logo {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li:first-child {
+    order: 1;
+}
+
+nav ul li:nth-child(2) {
+    order: 3;
+}
+
+nav ul li:nth-child(3) {
+    order: 2;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 3px 5px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+    background: #fff;
+    color: #2b1055;
+}
+
 body {
     min-height: 100vh;
     background: linear-gradient(#2b9cc5, #7597de);
 }
+
+/*UPLOAD PAGE*/
+#uploadsection {
+    display:flex;
+    justify-content: center;
+}
+
+#uploadsection form {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: #7597de;
+    border-style: solid;
+    border-color: #344366;
+    border-width: 2px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+#uploadsection h3 {
+    margin-top: 10px;
+}
+
+#uploadsection input {
+    margin-bottom:10px;
+}
+
+/*BROWSE PAGE */
+.categories {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .categories a {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgb(185, 238, 252);
+    text-decoration: none;
+  
+  }
+  
+  .categories a:hover {
+    background: white;
+    color: black;
+  }
+  
+  .categories a h3 {
+    text-align: center;
+  }
+
+/*ABOUT PAGE */
+#aboutsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+#aboutsection li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(185, 238, 252);
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 300px;
+    margin-bottom:20px;
+  }
+
+  #aboutsection li div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width: 124px;
+    height: 124px;
+  }
