@@ -70,30 +70,33 @@ body {
 
 /*UPLOAD PAGE*/
 #uploadsection {
-  display:flex;
+  display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 #uploadsection form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-left:10px;
-  padding-right:10px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: #7597de;
   border-style: solid;
   border-color: #fff;
   border-width: 2px;
   border-radius: 50px;
   color: #fff;
+  box-shadow: 0px 0px 30px white;
 }
 
 input[type=submit] {
+  margin-bottom: 10px;
   margin-top: 10px;
   padding: 5px 20px;
-  background-color: #4CAF50; 
-  color: white; 
+  background-color: #4CAF50;
+  color: white;
   border: 2px solid #4CAF50;
 }
 
@@ -102,7 +105,7 @@ input[type=submit] {
 }
 
 #uploadsection input {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 /*BROWSE PAGE */
@@ -113,9 +116,9 @@ input[type=submit] {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  }
-  
-  .categories a {
+}
+
+.categories a {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -124,16 +127,16 @@ input[type=submit] {
   border-radius: 10px;
   background-color: rgb(185, 238, 252);
   text-decoration: none;
-  }
-  
-  .categories a:hover {
+}
+
+.categories a:hover {
   background: white;
   color: black;
-  }
-  
-  .categories a h3 {
+}
+
+.categories a h3 {
   text-align: center;
-  }
+}
 
 /*ABOUT PAGE */
 #aboutsection {
@@ -141,7 +144,7 @@ input[type=submit] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  }
+}
 
 #aboutsection li {
   display: flex;
@@ -153,10 +156,11 @@ input[type=submit] {
   padding-left: 50px;
   padding-right: 50px;
   width: 300px;
-  margin-bottom:20px;
-  }
+  margin-bottom: 20px;
+  box-shadow: 10px 10px white;
+}
 
-  #aboutsection li div img {
+#aboutsection li div img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -164,4 +168,5 @@ input[type=submit] {
   border-radius: 50%;
   width: 124px;
   height: 124px;
-  }
+  box-shadow: 4px 4px 4px black;
+}

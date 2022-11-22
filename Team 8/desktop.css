@@ -60,6 +60,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20vh;
+  padding-bottom: 50px;
 }
 
 #uploadsection form {
@@ -72,6 +73,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #7597de;
+  box-shadow: 0px 0px 100px white;
 }
 
 #uploadsection form h3 {
@@ -174,6 +176,7 @@ input[type=submit]:hover {
   background-color: rgb(185, 238, 252);
   padding: 15px;
   width: 17%;
+  box-shadow: 10px 10px white;
 }
 
 #aboutsection li div img {
@@ -184,4 +187,5 @@ input[type=submit]:hover {
   border-radius: 50%;
   width: 124px;
   height: 124px;
+  box-shadow: 4px 4px 4px  black;
 }
