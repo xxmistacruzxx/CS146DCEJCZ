@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)" />
   <link rel="stylesheet" href="tablet.css" media="screen and (min-width:481px) and (max-width:768px)" />
   <link rel="stylesheet" href="desktop.css" media="screen and (min-width:769px)" />
-  <script src="script.js" defer></script>
+  <script src="upload.js" defer></script>
 </head>
 
 <body>
@@ -22,60 +22,60 @@
     </ul>
   </nav>
   <div id="uploadsection">
-    <form action="/upload.js">
-      <h3>Step 1: Select an image!</h3>
-      <input type="file" id="myFile" name="filename" accept="image/png, image/jpeg">
-      <br>
-      <h3>Step 2: Choose a category!</h3>
+    <form id="form" enctype="multipart/form-data" method="post">
+      <h3>Step 1: Choose a category!</h3>
       <div>
         <div>
           <input type="radio" id="3D" name="category" value="3D">
           <label for="3D">3D</label>
         </div>
         <div>
-          <input type="radio" id="Anime" name="category" value="Anime">
+          <input type="radio" id="anime" name="category" value="Anime">
           <label for="Anime">Anime</label>
         </div>
         <div>
-          <input type="radio" id="Comics" name="category" value="Comics">
+          <input type="radio" id="comics" name="category" value="Comics">
           <label for="Comics">Comics</label>
         </div>
         <div>
-          <input type="radio" id="Digital Art" name="category" value="Digital Art">
+          <input type="radio" id="digital_art" name="category" value="Digital Art">
           <label for="Digital Art">Digital Art</label>
         </div>
         <div>
-          <input type="radio" id="Drawing" name="category" value="Drawing">
+          <input type="radio" id="drawing" name="category" value="Drawing">
           <label for="Drawing">Drawing</label>
         </div>
         <div>
-          <input type="radio" id="Landscape" name="category" value="Landscape">
+          <input type="radio" id="landscape" name="category" value="Landscape">
           <label for="Landscape">Landscape</label>
         </div>
         <div>
-          <input type="radio" id="Nature" name="category" value="Nature">
+          <input type="radio" id="nature" name="category" value="Nature">
           <label for="Nature">Nature</label>
         </div>
         <div>
-          <input type="radio" id="Photography" name="category" value="Photography">
+          <input type="radio" id="photography" name="category" value="Photography">
           <label for="Photography">Photography</label>
         </div>
         <div>
-          <input type="radio" id="Pixel Art" name="category" value="Pixel Art">
+          <input type="radio" id="pixel_art" name="category" value="Pixel Art">
           <label for="Pixel Art">Pixel Art</label>
         </div>
         <div>
-          <input type="radio" id="Sculpture" name="category" value="Sculpture">
+          <input type="radio" id="sculpture" name="category" value="Sculpture">
           <label for="Sculpture">Sculpture</label>
         </div>
         <div>
-          <input type="radio" id="Other" name="category" value="Other">
+          <input type="radio" id="other" name="category" value="Other">
           <label for="Other">Other</label>
         </div>
       </div>
       <br>
+      <h3>Step 2: Select an image!</h3>
+      <input type="file" id="image" name="filename" accept="image/png, image/jpeg">
+      <br>
       <h3>Step 3: Submit!</h3>
-      <input id="submit" type="submit" value="Submit">
+      <input type="submit" id="upload"></button>
     </form>
   </div>
 </body>
