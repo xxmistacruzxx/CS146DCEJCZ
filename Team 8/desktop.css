@@ -95,7 +95,7 @@ body {
   padding-left:4px;
 }
 
-#myFile{
+#image{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -104,13 +104,10 @@ body {
   color: white;
 }
 
-#submit {
+input[type=submit] {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-input[type=submit] {
   margin-top: 10px;
   padding: 5px 20px;
   background-color: white; 
@@ -188,4 +185,16 @@ input[type=submit]:hover {
   width: 124px;
   height: 124px;
   box-shadow: 4px 4px 4px  black;
+}
+
+/* INDIVIDUAL BROWSE PAGES */
+.uImg {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uImgs {
+  display: flex;
+  flex-direction: column;
 }
