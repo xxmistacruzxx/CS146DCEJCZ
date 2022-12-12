@@ -198,6 +198,10 @@ input[type=submit]:hover {
 }
 
 .uImgs {
+  display: flex;
+  flex-direction: column;
+  margin-left:15%;
+  margin-right:15%;
   line-height: 0;
   column-count: 5;
   column-gap: 0.5px;
