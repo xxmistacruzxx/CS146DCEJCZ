@@ -170,9 +170,11 @@ input[type=submit] {
 
 /* INDIVIDUAL BROWSE PAGES */
 .uImg {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  width: 98.5%;
+  height: auto;
+  margin-bottom: 5px;
+  border-radius: 10px;
 }
 
 .uImgs {
