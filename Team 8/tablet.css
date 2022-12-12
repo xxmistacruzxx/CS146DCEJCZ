@@ -179,3 +179,9 @@ input[type=submit] {
   display: flex;
   flex-direction: column;
 }
+
+#noImgsFound {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}

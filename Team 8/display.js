@@ -29,9 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     }
-    
+
     if (!added) {
         var elem = document.createElement("h3");
+        elem.id = "noImgsFound";
         elem.textContent = "No images have been uploaded to this category.";
         document.getElementById(category + "_images").appendChild(elem);
     }
