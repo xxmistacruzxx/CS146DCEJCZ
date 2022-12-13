@@ -110,11 +110,6 @@ input[type=submit] {
   border: 2px solid #4CAF50;
 }
 
-input[type=submit]:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
 /*BROWSE PAGE */
 .categories {
   padding-top: 100px;
@@ -197,9 +192,6 @@ input[type=submit]:hover {
   flex-direction: column;
   margin-left:15%;
   margin-right:15%;
-  line-height: 0;
-  column-count: 5;
-  column-gap: 0.5px;
 }
 
 #noImgsFound {
