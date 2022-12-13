@@ -45,11 +45,6 @@ nav ul li a {
   border-radius: 20px;
 }
 
-nav ul li a:hover {
-  background: #fff;
-  color: #2b1055;
-}
-
 body {
   min-height: 100vh;
   background: linear-gradient(#2b9cc5, #7597de);
